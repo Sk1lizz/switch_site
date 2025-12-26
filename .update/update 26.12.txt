@@ -1,0 +1,14 @@
+[UPDATE 26.12.2025 | First update]
+
++ git-connect
++ edit files\config\config.json -> (GIT_CONNECT)
++ file ~\config.py | functions.py | main.py | switch.py
++ ~\functions -> (function main | switch | info | help)
+
+
+
+[UPDATE 26.12.2025 | First update-2]
+
++ edit switch.py -> add functions get_path | filter_website | switch_add | switch_on <pass> | switch_off <pass> 
++ edit README
++ commit 26.12.2025

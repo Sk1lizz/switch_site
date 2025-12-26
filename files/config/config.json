@@ -10,9 +10,9 @@
         "Android": false,
         "IOS": false
     },
-    "git-connect": false,
+    "git-connect": true,
     "date-create": "21.12.2025",
-    "last-date-update": "---",
+    "last-date-update": "26.12.2025",
     "console": true,
     "gui": false
 }
