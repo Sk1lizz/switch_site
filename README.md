@@ -25,3 +25,9 @@
 ### Инструкция для разработчиков:
 
 - Пусто
+
+---
+
+### Просмотр описания обновлений
+
+- [Link](https://github.com/Sk1lizz/switch_site/tree/main/.update)

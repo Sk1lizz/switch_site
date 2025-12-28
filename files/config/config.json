@@ -14,5 +14,6 @@
     "date-create": "21.12.2025",
     "last-date-update": "26.12.2025",
     "console": true,
-    "gui": false
+    "gui": false,
+    "debug": false
 }

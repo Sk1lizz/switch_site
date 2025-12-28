@@ -1,0 +1,11 @@
+[UPDATE 28.12.2025 | Second update]
+
++ add files\datafile\Windows\hosts\sites.json
++ add debug.py
++ add function (debug.py) add_file | add_action
++ add in config.py | files\config\config.json debug
++ add function in functions.py get_version | chech_version 
++ edit function main (old: pass) chech_version; pass
++ add\edit functions in switch.py switch_add [read wnd write in files\datafile\Windows\hosts\sites.json] | switch_delete 
++ add ~\debug for logs
++ edit README.md
