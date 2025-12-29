@@ -1,6 +1,6 @@
 {
     "name": "Switch Site by skilizz",
-    "version": "v2.0.0-beta",
+    "version": "v2.1.0-beta",
     "creator": "skilizz",
     "root": true,
     "support_platforms": {
@@ -12,7 +12,7 @@
     },
     "git-connect": true,
     "date-create": "21.12.2025",
-    "last-date-update": "26.12.2025",
+    "last-date-update": "29.12.2025",
     "console": true,
     "gui": false,
     "debug": false

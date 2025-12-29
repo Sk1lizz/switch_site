@@ -1,0 +1,7 @@
+[UPDATE 29.12.2025 | 3 update]
+
++ update version (v2.0.0-beta -> v2.1.0-beta)
++ edit last-date-update in files\config\config.json\
++ add new function in function.py
++ edit main.py
++ edit switch.py

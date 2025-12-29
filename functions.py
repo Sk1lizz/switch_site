@@ -1,6 +1,8 @@
 import config as cfg
 import requests
 from bs4 import BeautifulSoup as bs
+import pyfiglet as pf
+
 
 def get_version() -> str:
     URL_TEMPLATE = "https://github.com/Sk1lizz/switch_site/blob/main/files/config/config.json"
@@ -29,7 +31,18 @@ def main():
     version = cfg.VERSION
     new_version = get_version()
     if not chech_version(): print(f"Your version ({version}) is outdated, download the latest version ({new_version}) from the link. (https://github.com/Sk1lizz/switch_site/)") 
-    pass
+
+    FONT = "slant"
+    text = str(pf.figlet_format(str(cfg.NAME).replace(" by skilizz", ""), font=FONT))
+
+    menu = str(pf.figlet_format("MAIN MENU", font=FONT))
+
+    tt = "--------------------------------------------------------"
+    main_text = " <1> - Main menu\n <2> - Switch menu\n <8> - Info menu\n <9> - Help menu\n <0> - Exit"
+    last_tt = "----------------------<MAIN  MENU>----------------------"
+
+    result = f"{tt}\n{text}{tt}\n{menu}{tt}\n\n{main_text}\n\n{last_tt}"
+    return result
 
 
 def switch():
@@ -62,7 +75,12 @@ def help() -> str:
     name = cfg.NAME
     
     # Текст
-    text = f"""--------{name}--------\n <1> - Main menu\n <2> - Switch menu\n <8> - Info menu\n <9> - Help menu  \n-------------<HELP  MENU>-------------"""
+    text = f"""--------{name}--------\n <1> - Main menu\n <2> - Switch menu\n <8> - Info menu\n <9> - Help menu  \n <0> - Exit  \n-------------<HELP  MENU>-------------"""
 
+    return text
+
+def byebye():
+    FONT = "slant"
+    text = str(pf.figlet_format(str("Bye bye "), font=FONT))
     return text
 
